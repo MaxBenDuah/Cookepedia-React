@@ -1,0 +1,158 @@
+.myRecipeContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  padding: 8.6rem;
+  list-style: none;
+}
+
+.recipeBenefits {
+  position: relative;
+}
+
+.img img {
+  max-width: 100%;
+  border-radius: 1.5rem;
+  filter: opacity(0.4);
+  transition: all 0.4s;
+}
+
+.img img:hover {
+  filter: opacity(1);
+}
+
+.content {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  color: #13783a;
+  font-size: 1.6rem;
+}
+
+.addCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8.6rem;
+}
+
+.dailyRecipeCont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 8.6rem;
+  list-style: none;
+  gap: 3rem;
+}
+
+.subContainer {
+  display: flex;
+  align-items: center;
+}
+
+.recipesImgContainer {
+  width: 40%;
+  z-index: 9999;
+  /* height: 20rem; */
+}
+
+.recipesImgContainer img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.contentCont {
+  background: saddlebrown;
+  height: 9rem;
+  width: 60%;
+  margin-left: -1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  position: relative;
+}
+
+.contentCont .desc {
+  font-size: 1.4rem;
+}
+
+.trashIcon {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  transform: translate(50%, 0%);
+  background: #fcb8b8;
+  width: 2rem;
+  height: 4rem;
+  color: #f87171;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8rem;
+}
+
+.editButton {
+  position: absolute;
+  bottom: 0;
+  transform: translate(0, 50%);
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  color: #6bbf8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8rem;
+  background: #cff9de;
+}
+
+.formCont {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #13783a;
+  border-radius: 1rem;
+  box-shadow: 0 14px 24px rgba(0, 0, 0, 0.24);
+}
+
+.label {
+  display: block;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.input {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.inputBtn {
+  border: none;
+  padding: 1rem;
+  background: #fff;
+  color: #15803d;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  background: #13783a;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+}

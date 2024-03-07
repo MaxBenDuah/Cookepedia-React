@@ -1,0 +1,23 @@
+.chefsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+  list-style: none;
+  padding: 8.6rem;
+}
+
+.chefsGrid img {
+  width: 100%;
+}
+
+.position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.chefName {
+  font-size: 2rem;
+  color: #020804;
+}

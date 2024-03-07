@@ -1,0 +1,16 @@
+/**********************/
+/* NAVIGATION STYLES */
+/**********************/
+
+.navigationContainer {
+  display: flex;
+  gap: 4rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
