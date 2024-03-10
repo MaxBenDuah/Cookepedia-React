@@ -19,7 +19,7 @@
 
 /* STYLE FOR ACTIVE LINK */
 a.active {
-  border-bottom: 0.5rem double var(--color-background-btn);
+  border-bottom: 0.5rem double var(--color-white);
 }
 
 html {
@@ -65,7 +65,7 @@ body {
 }
 
 .header__icon {
-  display: inline-block; /* Chnaged to inline-block from block*/
+  display: inline-block;
 }
 
 .header__logo {
