@@ -1,8 +1,45 @@
-# React + Vite
+# Cookpedia: Your Gateway to Effortless Cooking with 1000+ Recipes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cookpedia – a React and Vite-powered website
 
-Currently, two official plugins are available:
+Explore the easiest way to make your favorite meals on Cookpedia. Discover a handpicked collection of 1000+ recipes, ensuring you find the best and simplest way to cook your favorite dishes. Cooking made easy, just for you!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
+
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-1.png?raw=true)
+
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-2.png?raw=true)
+
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-3.png?raw=true)
+
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-4.png?raw=true)
+
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-5.png?raw=true)
+
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-6.png?raw=true)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/MaxBenDuah/Cookepedia-React.git
+```
+
+Navigate to the project directory
+
+```bash
+  cd Cookepedia-React
+```
+
+Run the project in your browser
+
+```bash
+  npm run dev
+```
+
+Open the project in your browser
+
+## Demo
+
+https://cookepedia-mbd.netlify.app/
