@@ -6,7 +6,7 @@ Explore the easiest way to make your favorite meals on Cookpedia. Discover a han
 
 ## Screenshots
 
-![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-1.png?raw=true)
+![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-1a.png?raw=true)
 
 ![App Screenshot](https://github.com/MaxBenDuah/miscellaneous-resources/blob/main/screenshot-cookepedia-2.png?raw=true)
 
