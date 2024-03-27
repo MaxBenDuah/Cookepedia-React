@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <div className="header__sub--cont padding--round">
+        <div className="header__sub--cont padding-header">
           <Logo />
-          <Navigation></Navigation>
+          <Navigation />
           <User />
         </div>
 

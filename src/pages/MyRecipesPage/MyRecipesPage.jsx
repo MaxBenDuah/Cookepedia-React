@@ -1,8 +1,10 @@
 import { useState } from "react";
-import Header from "../../components/Header";
 import MyRecipes from "./MyRecipes";
 import dailyBestRecipeData from "./DailyBestRecipeData";
 import Footer from "../../components/Footer";
+import Logo from "../../components/Logo";
+import Navigation from "../../components/Navigation";
+import User from "../../components/User";
 
 const MyRecipesPage = () => {
   const [recipeData, setRecipeData] = useState(dailyBestRecipeData);
@@ -27,7 +29,11 @@ const MyRecipesPage = () => {
 
   return (
     <h1>
-      <Header />
+      <div className="header__sub--cont padding-header">
+        <Logo />
+        <Navigation />
+        <User />
+      </div>
       <MyRecipes
         onAddRecipes={handleAddRecipe}
         recipeData={recipeData}
